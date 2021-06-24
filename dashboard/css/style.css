@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #161515;
+    --secondary-color: #555555;
+    --white-color: #fff0f5;
+}
+
+.add-link{
+    color: var(--primary-color) !important;
+}
+
+.add-icon{
+    font-size: 34px;
+}
+
+.action-icon{
+    cursor: pointer; 
+    color: #000;
+}
+
+.action-icon:hover{
+    color: #000;   
+}
+
+
+.product-img{
+    width: 50px;
+    height: 50px;
+}
+
+.login-main{
+    margin-top: 80px;
+}
+
+.alert-btn{
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    width: 80px;
+    height: 40px
+}
+
+.alert-btn:hover{
+    color: #fff;
+}
+
+.toggle-on{
+    color: #000;
+}
+
+.toggle-on:hover{
+    color: gray;
+}
+
+.toggle-off{
+    color: gray;
+}
+
+.toggle-off:hover{
+    color: #000;
+}

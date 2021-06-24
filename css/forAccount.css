@@ -1,0 +1,52 @@
+.account-link{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+}
+
+.account-link:hover{
+    color: #000;
+}
+
+.orders-section{
+    margin-top: 100px;
+}
+
+.addresses-sections{
+    background-color: #E0E0E0;
+    font-size: 13px;
+}
+
+.account-main{
+    padding-top: 100px;
+    background-color: #F0F0F0;
+    min-height: calc(100vh - 80px);
+}
+
+.address-btn{
+    background-color: #000;
+    color: #fff;
+    min-width: 200px !important;
+    border: 1px solid #000;
+}
+
+.address-btn:hover{
+    color: #000;
+    background-color: transparent;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.address-list p{
+    font-size: 13px;
+}
+
+.address{
+    font-size: 16px;
+}
+
+.product-img{
+    width: 50px; 
+    height: 50px;
+}

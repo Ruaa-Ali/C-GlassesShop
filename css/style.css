@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.benefits{
+    background-color: #FDF9DF;
+}
+
+.product-btn {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 50px;
+    visibility: hidden;
+}
+
+.product-btn:focus {
+    outline: none;
+}
+
+.product-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition:all 200ms;
+}
+
+.back-img {
+    display: none;
+}
+
+.product-inner {
+    transition: .4s ease;
+}
+
+.product-inner:hover {
+    box-shadow: 0 0 18px 3px rgb(0 0 0 / 16%);
+}
+
+.product-inner:hover .front-img {
+    display: none;
+}
+
+.product-inner:hover .back-img {
+    display: block;
+}
+
+.product-inner:hover .product-btn {
+    visibility: visible;
+}
+
+/* .product-name-front {
+    font-size: 25px;
+    font-weight: 500;
+} */
+
+
+@media only screen and (max-width: 992px) {
+
+    .product-inner{
+        box-shadow: 0 0 18px 3px rgb(0 0 0 / 16%);
+    }
+
+    .product-btn{
+        visibility: visible;
+    }
+
+
+}
+
