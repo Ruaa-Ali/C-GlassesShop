@@ -1,2 +1,3 @@
 # C-GlassesShop
-Dynamic glasses website
+Simple dynamic glasses website.
+A 'clone' of barnerbrand.com website
